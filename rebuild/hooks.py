@@ -5,6 +5,11 @@ app_description = "..."
 app_email = "nvzalex@gmail.com"
 app_license = "mit"
 
+# Fixtures - exporta los DocTypes de este módulo al sistema de archivos
+fixtures = [
+    {"dt": "DocType", "filters": [["module", "=", "ReBuild"]]}
+]
+
 # Apps
 # ------------------
 

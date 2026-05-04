@@ -1,0 +1,100 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-04-28 17:57:20.776637",
+ "custom": 1,
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "id_componente",
+  "section_break_ayqx",
+  "nombre",
+  "estado",
+  "precio",
+  "a\u00f1o_de_salida",
+  "foto",
+  "section_break_8eh0",
+  "cif",
+  "id_categoria"
+ ],
+ "fields": [
+  {
+   "fieldname": "id_componente",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Id Componente",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_ayqx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "nombre",
+   "fieldtype": "Data",
+   "label": "Nombre"
+  },
+  {
+   "fieldname": "estado",
+   "fieldtype": "Select",
+   "label": "Estado",
+   "options": "Nuevo\nCasi nuevo\nUsado"
+  },
+  {
+   "fieldname": "precio",
+   "fieldtype": "Currency",
+   "label": "Precio"
+  },
+  {
+   "fieldname": "a\u00f1o_de_salida",
+   "fieldtype": "Data",
+   "label": "A\u00f1o de Salida"
+  },
+  {
+   "fieldname": "foto",
+   "fieldtype": "Attach Image",
+   "label": "Foto"
+  },
+  {
+   "fieldname": "section_break_8eh0",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "cif",
+   "fieldtype": "Int",
+   "label": "Cif"
+  },
+  {
+   "fieldname": "id_categoria",
+   "fieldtype": "Int",
+   "label": "Id Categoria"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-04-28 18:31:32.801800",
+ "modified_by": "Administrator",
+ "module": "ReBuild",
+ "name": "Componente",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
