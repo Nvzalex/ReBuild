@@ -8,6 +8,11 @@ app_license = "mit"
 # Fixtures - exporta los DocTypes de este módulo al sistema de archivos
 fixtures = [
     "Web Page",
+    "Web Template",
+    "Custom Field",
+    "Property Setter",
+    "Client Script",
+    "Server Script",
 ]
 
 # Apps
