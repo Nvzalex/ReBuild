@@ -7,7 +7,7 @@ app_license = "mit"
 
 # Fixtures - exporta los DocTypes de este módulo al sistema de archivos
 fixtures = [
-    {"dt": "DocType", "filters": [["module", "=", "ReBuild"]]}
+    "Web Page",
 ]
 
 # Apps
