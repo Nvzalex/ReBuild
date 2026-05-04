@@ -53,3 +53,5 @@ jspm_packages/
 
 # Aider AI Chat
 .aider*
+id_ed25519.pub
+id_ed25519.pub.pub
