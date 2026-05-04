@@ -13,6 +13,10 @@ fixtures = [
     "Property Setter",
     "Client Script",
     "Server Script",
+    {
+        "dt": "DocType",
+        "filters": [["module", "=", "ReBuild"]]
+    },
 ]
 
 # Apps
